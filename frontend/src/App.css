@@ -1,0 +1,81 @@
+/* --- Layout --- */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f5f7fb;
+  margin: 0;
+}
+
+.nav {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 980px;
+  margin: 32px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+/* --- Utilities --- */
+.row { display: flex; gap: 12px; align-items: center; }
+.spread { display: flex; justify-content: space-between; align-items: center; }
+.mt-12 { margin-top: 12px; }
+.mt-16 { margin-top: 16px; }
+.mt-24 { margin-top: 24px; }
+
+/* --- Headline & toolbar --- */
+.page-title { margin: 0 0 8px; color: #111827; }
+.subtle { color: #6b7280; font-size: 14px; }
+
+.search {
+  padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; width: 280px;
+}
+
+/* --- Card / form --- */
+.card {
+  background: #fff; padding: 16px; border: 1px solid #e5e7eb; border-radius: 12px;
+}
+
+form input, form button { padding: 10px 12px; font-size: 15px; }
+form input {
+  width: 100%; margin-bottom: 10px; border: 1px solid #d1d5db; border-radius: 8px;
+}
+.btn {
+  border: none; border-radius: 8px; cursor: pointer; padding: 10px 14px;
+}
+.btn-primary { background: #2563eb; color: #fff; }
+.btn-primary:hover { background: #1d4ed8; }
+.btn-danger { background: #ef4444; color: #fff; }
+.btn-danger:hover { background: #dc2626; }
+
+.alert {
+  padding: 10px 12px; border-radius: 8px; border: 1px solid; font-size: 14px;
+}
+.alert-success { background: #ecfdf5; color: #065f46; border-color: #10b981; }
+.alert-error   { background: #fef2f2; color: #991b1b; border-color: #f87171; }
+
+/* --- Table --- */
+.table {
+  width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 12px;
+  border: 1px solid #e5e7eb; background: #fff;
+}
+.table th, .table td {
+  padding: 12px; text-align: left; border-bottom: 1px solid #f3f4f6;
+  vertical-align: middle;
+}
+.table th { background: #f9fafb; color: #374151; font-weight: 600; }
+.table tr:hover td { background: #fafafa; }
+.badge {
+  display: inline-block; padding: 3px 8px; border-radius: 999px;
+  background: #eef2ff; color: #3730a3; font-size: 12px; font-weight: 600;
+}
