@@ -37,5 +37,5 @@ Through this project, I learned **API integration, file handling, and full‑sta
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/abidabegam/mini-app.git
+git clone https://github.com/mini-app.git
 cd mini-app
